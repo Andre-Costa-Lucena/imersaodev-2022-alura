@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto Mono", monospace;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: bisque;
+    background-size: cover;
+    background-image: url(img/abstract-banner-with-low-poly-plexus-design-free-vector.jpg);
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border-radius: 100px 0;
+    background: rgba(102, 51, 153, 0.7);
+    box-shadow:0 5px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.selecao-desafio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.selecao-desafio h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 400px;
+    height: 60px;
+    color: aliceblue;
+    margin: 20px;
+    margin-bottom: 0;
+    background: rgba(102, 51, 153, 0.7);;
+    box-shadow:0 3px 0px 3px rgba(0, 0, 0, 0.6);
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(251, 12, 60);
+    border-radius: 15px;
+    width: 300px;
+    height: 70px;
+    box-shadow:0 3px 0px 3px rgba(0, 0, 0, 0.6);
+}
+.cabecalho img{
+    height: 30px;
+    margin: 5px;
+}
+
+.desafios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 15px;
+    width: 300px;
+    height: 60px;
+    background-color: rgba(218, 40, 40, 0.719);
+    box-shadow:0 3px 0px 3px rgba(0, 0, 0, 0.6);
+}
+
+.desafios .desafio{
+    font-size: 20px;
+    font-weight: 800;
+    color: aliceblue;
+    text-decoration: none;
+}

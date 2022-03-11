@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto Mono", monospace;
+    height: 100vh;
+    background-color: #000000;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(65, 49, 218, 0.918);
+    padding: 20px;
+    width: 600px;
+    height: 600px;
+  }
+
+  .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100px;
+    background: rebeccapurple;
+    text-align: center;
+    color: #000000;
+  }
+  .box input{
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #000000;
+  }
+  .box div select{
+    width: 150px;
+    height: 30px;
+  }
+
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  label {
+    color: white;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  
+  h2 {
+    color: #ffffff;
+    font-size: 30px;
+  }
+  

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500&display=swap');
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Roboto Mono', sans-serif ;
+    background: linear-gradient(#008cff, #d43232);
+  }
+
+  .imersao{
+    width: 200px;
+  }
+  
+  .container{
+    width: 600px;
+    height: 600px;
+    background: rgba(19, 19, 19, 0.322);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .container h1{
+   font-weight: 400;
+   background: #008cff;
+   border-radius: 5px;
+   box-shadow: 2px 2px 2px 2px rgba(31, 31, 31, 0.418);
+ }
+
+ .input p{
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+ }
+ 
+ .input-button{
+   border: none;
+   outline: none;
+   font-size: 20px;
+   height: 30px;
+   width: 150px;
+   color: rgb(47, 47, 47);
+   text-align: center;
+   box-shadow: 2px 2px 2px 2px rgba(31, 31, 31, 0.418);
+  }
+  
+  .voltar{
+    margin-top: 30px;
+    width: 70px;
+    height: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #000000;
+    box-shadow: 2px 2px 2px 2px rgba(31, 31, 31, 0.418);
+  }
+  
+  .voltar a{
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 100;
+   text-decoration: none;
+ }
+
+ .alura-logo{
+   top: 0;
+   right: 0;
+   position: absolute;
+ }

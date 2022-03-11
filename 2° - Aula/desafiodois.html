@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="desafio-2.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <div class="container">
+    <img class="imersao" src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+    <h1 class="page-title">
+      Conversor de Temperatura
+    </h1>
+   
+
+    <div class="input">
+      <p>Celsius</p>
+      <input class="input-button" type="number" id="celsius" size="2" onclick="convertCelsius()" placeholder="0"/>
+    </div>
+
+    <div class="input"> 
+      <p>Fahrenheit</p>
+      <input class="input-button" type="number" id="fahrenheit" onclick="convertFahreit()" placeholder="32"/>
+    </div>
+
+    <div class="input"> 
+      <p>Kelvin</p>
+      <input class="input-button" type="number" id="kelvin" placeholder="273.15" onclick="convertKelvin()"/>
+    </div>
+
+    <button class="voltar">
+      <a href="menu.html" >Voltar</a>
+    </button>
+  </div>
+  
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  
+  <script src="desafio-2.js"></script>
+</body>
+</html>
