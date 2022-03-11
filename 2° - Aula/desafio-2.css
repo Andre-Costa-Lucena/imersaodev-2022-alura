@@ -52,24 +52,6 @@ html, body{
    box-shadow: 2px 2px 2px 2px rgba(31, 31, 31, 0.418);
   }
   
-  .voltar{
-    margin-top: 30px;
-    width: 70px;
-    height: 25px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    background: #000000;
-    box-shadow: 2px 2px 2px 2px rgba(31, 31, 31, 0.418);
-  }
-  
-  .voltar a{
-    color: aliceblue;
-    font-size: 16px;
-    font-weight: 100;
-   text-decoration: none;
- }
-
  .alura-logo{
    top: 0;
    right: 0;
